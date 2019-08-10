@@ -42,14 +42,18 @@ a {
 
 }*/
 
-.navbar a {
-	color: #ffffff;
+.navbar .logo-image {
+	font-weight: bolder;
+	font-size: 22px;
+}
 
+.navbar a {
+	color: #00002b;
 }
 
 .nav li a:hover {
 	background:;
-	color: pink; 
+	color: #ff0066; 
 }
 
 /*.header-image {
@@ -81,7 +85,7 @@ header p {
 	text-align: justify;
 	padding:  5px 0;
 	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
 	/*border: 1px solid gray*/
 }
 
@@ -92,6 +96,44 @@ header p {
 .text-img img {
 	width: 400px;
 }
+
+.block2 {
+	font-size: 20px;
+	margin: 30px 0;
+	text-align: justify;
+	padding:  5px 0;
+	border-top: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
+	/*border: 1px solid gray*/
+}
+
+.block2-text {
+	padding: 120px 0;
+}
+
+.text-img1 img {
+	width: 400px;
+}
+
+.block3 {
+	font-size: 20px;
+	margin: 30px 0;
+	text-align: justify;
+	padding:  5px 0;
+	border-top: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
+	/*border: 1px solid gray*/
+}
+
+.block3-text {
+	padding: 120px 0;
+}
+
+.text-img2 img {
+	width: 400px;
+}
+
+
 
 
 
