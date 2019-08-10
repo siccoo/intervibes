@@ -1,8 +1,42 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-shadow: border-box;
+/* Template Name: Sample
+Author: Chilaka Michael Obinna
+Author URL: github.com/siccoo
+Version: 1.0.0
+Website: 
+*/
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== 
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0 !important;
 }
+  
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   02. HEADER & NAVIGATION STYLES
+   ========================================================================== 
+*/
 
 /*.navbar-custom {
 
