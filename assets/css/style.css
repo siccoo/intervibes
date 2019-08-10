@@ -53,10 +53,10 @@ a {
 }
 
 /*.header-image {
-	background: url("./assets/images/inter.jpg");
+	background: url("./assets/images/inter.jpg") no-repeat;
 	height: 450px;
-}
-*/
+}*/
+
 
 header {
 	/*background: url('assets/images/inter.jpg');*/
@@ -73,4 +73,9 @@ header h1 {
 header p {
 	font-size: 20px;
 	/*text-shadow: 1px 2px 1px #ffffff;*/
+}
+
+.text-latin {
+	font-size: 20px;
+	margin: 20px 0;
 }
