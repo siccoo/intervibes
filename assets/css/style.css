@@ -1,8 +1,9 @@
-/* Template Name: Sample
+/* Template Name: InterVibes
 Author: Chilaka Michael Obinna
 Author URL: github.com/siccoo
 Version: 1.0.0
-Website: 
+Website:
+Bootstrap navigation fixed: navbar-fixed-top; 
 */
 
 /* ==========================================================================
@@ -39,7 +40,9 @@ a {
 */
 
 /*.navbar-custom {
-
+	position: absolute;
+	top: 0;
+	width: 100%;
 }*/
 
 .navbar .logo-image {
@@ -49,11 +52,12 @@ a {
 
 .navbar a {
 	color: #00002b;
+	/*font-weight: bold;*/
 }
 
 .nav li a:hover {
-	background:;
-	color: #ff0066; 
+	background: #cf2973;
+	color: #00002b; 
 }
 
 /*.header-image {
@@ -64,7 +68,7 @@ a {
 
 header {
 	/*background: url('assets/images/inter.jpg');*/
-	height: 450px;
+	height: 438px;
 	color: #ffffff;
 	padding: 150px 0;
 }
@@ -84,7 +88,7 @@ header p {
 	margin: 30px 0;
 	text-align: justify;
 	padding:  5px 0;
-	border-top: 1px solid gray;
+	/*border-top: 1px solid gray;*/
 	/*border-bottom: 1px solid gray;*/
 	/*border: 1px solid gray*/
 }
@@ -132,6 +136,28 @@ header p {
 .text-img2 img {
 	width: 400px;
 }
+
+
+
+/* ==========================================================================
+   03. FOOTER STYLES
+   ========================================================================== 
+*/
+
+.footer {
+	padding: 15px 0;
+	/*max-width: 100%;*/
+	background: #00002b;
+	color: #ffffff;
+	/*margin: 0 5px;*/
+}
+
+
+/* ==========================================================================
+   04. GALLERY STYLES
+   ========================================================================== 
+*/
+
 
 
 
