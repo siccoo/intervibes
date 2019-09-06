@@ -16,5 +16,6 @@ $(window).load(function() {
     var src = $(this).attr('src');
     $('#model-img').attr('src', src);
     $('#imgId').modal('show');
+    $('#imgId').modal('close');
   });
 });
