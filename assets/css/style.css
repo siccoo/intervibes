@@ -45,6 +45,11 @@ a {
 	width: 100%;
 }*/
 
+.navbar-fixed-top nav {
+	position: absolute;
+	box-shadow: 0 5px #0000001a;
+}
+
 .navbar .logo-image {
 	font-weight: bolder;
 	font-size: 22px;

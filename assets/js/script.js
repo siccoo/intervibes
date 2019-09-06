@@ -19,3 +19,18 @@ $(window).load(function() {
     $('#imgId').modal('close');
   });
 });
+
+// STICKY NAV
+
+// const nav = document.querySelector('#main');
+// const topOfNav = nav.offsetTop;
+
+// function fixNav() {
+//   if(window.scrollY >= topOfNav) {
+//     document.body.classList.add('navbar-fixed-top');
+//   } else {
+//     document.body.classList.remove('navbar-fixed-top');
+//   }
+// }
+
+// window.addEventListener('scroll', fixNav);
